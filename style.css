@@ -1,0 +1,13 @@
+header{
+  background-color: grey;
+  width: 90%;
+  border: 2px solid black;
+  margin: auto;
+  display: grid;
+  /*grid-template-columns: 20% 40% 40%;*/
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 200px 100px;
+}
+nav{
+
+}
