@@ -1,5 +1,5 @@
 body{
-background-color: white;
+  background-image: linear-gradient(white, lightgray);
   width: 100%;
   min-height: 100vh;
   margin: auto;
@@ -18,6 +18,8 @@ main{
   */
   border-left: 1px solid;
   border-left-color: rgb(122, 216, 250);
+  border-top: 1px solid;
+  border-top-color: rgb(122, 216, 250);
   background-color: white;
   grid-row: 2 / 3;
   grid-column: 2 / 2;
@@ -30,15 +32,27 @@ main{
 
   background-color: white;
   font-size: 25px;
+  border-bottom: 1px solid;
+  margin-left: 20px;
+  font-family: 'Linux Libertine', sans-serif;
+  margin-top: 20px;
+}
+.lesserHeader{
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: 'Linux Libertine' , sans-serif;
 }
 .aside{
 
 }
 nav{
-  background-color: green;
+  background-blend-mode:darken;
+  background-image: linear-gradient(white, lightgray);
   grid-row: 1 / 3;
-  grid-column: 2 / 2;
-
+  grid-column: 1 / 2;
+  font-size: 0.875em;
+  margin-left:
+  line-height: 1px;
 
 }
 
@@ -48,6 +62,12 @@ img{
 }
 p{
   margin-left: 20px;
+  font-family: 'Linux Libertine' , sans-serif;
+  font-size: 0.875em;
+}
+a{
+  margin-left: 20px;
+  font-family: 'Linux Libertine' , sans-serif;
 }
 header{
 
