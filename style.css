@@ -1,3 +1,15 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body{
   background-image: linear-gradient(white, lightgray);
   width: 100%;
@@ -36,6 +48,26 @@ main{
   margin-left: 20px;
   font-family: 'Linux Libertine', sans-serif;
   margin-top: 20px;
+}
+
+.tableOfContents{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 23%;
+  background-color: rgba(244, 244, 244, 0.5);
+  border: 1px solid;
+  font-family: 'Linux Libertine' , sans-serif;
+  font-size: 0.875em;
+}
+.tableOfContentsTitle{
+text-align: center;
+text-decoration-color: black;
+
+}
+.tableOfContentsContents{
+  margin-top: 20px;
+  margin-left: 20px;
+
 }
 .lesserHeader{
   font-size: 20px;
